@@ -1,8 +1,8 @@
 {
   "name": "matchmaker",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "In-memory matchmaking engine with Swagger documentation",
+  "main": "main.js",
   "scripts": {
     "start": "node main.js",
     "dev": "nodemon main.js",
@@ -12,10 +12,12 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@faker-js/faker": "^9.7.0",
     "body-parser": "^2.2.0",
     "express": "^5.1.0",
-    "faker": "^5.5.3",
-    "ngeohash": "^0.6.3"
+    "ngeohash": "^0.6.3",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1"
   },
   "devDependencies": {
     "jest": "^29.7.0",
